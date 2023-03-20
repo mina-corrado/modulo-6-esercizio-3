@@ -32,7 +32,8 @@ Trova tutte le risorse con non presentano il dato eyes uguale a green e neanche 
 35
 
 Trova tutte le risorse con il dato company uguale a "FITCORE" e ritorna solo l'email 
-{"company": {$eq: "FITCORE"}}
-1
+filter: {"company": {$eq: "FITCORE"}}
+Project: {email: 1}
+victoria.solis@fitcore.biz
 
 */
